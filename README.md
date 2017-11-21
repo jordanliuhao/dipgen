@@ -47,6 +47,8 @@ Here is the list of available annotations:
 
 - `storyboardInstantiatable` -- Marks class to implement `StoryboardInstantiatable` protocol. Container that contains definition for this class will be added to UI containers.
 
+PLEASE MAKE SURE init() method is EXPLICITLY defined in the class. Or the container is not generated.
+
 See test project for another example of using annotations.
 
 <details>
